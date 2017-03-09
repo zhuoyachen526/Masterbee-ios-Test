@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2591FADC1E70CF4900AC3868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FADB1E70CF4900AC3868 /* AppDelegate.swift */; };
+		2591FAE11E70CF4900AC3868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2591FADF1E70CF4900AC3868 /* Main.storyboard */; };
+		2591FAE31E70CF4900AC3868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2591FAE21E70CF4900AC3868 /* Assets.xcassets */; };
+		2591FAE61E70CF4900AC3868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2591FAE41E70CF4900AC3868 /* LaunchScreen.storyboard */; };
+		2591FAF11E70CF4900AC3868 /* MasterBeeTestVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FAF01E70CF4900AC3868 /* MasterBeeTestVersionTests.swift */; };
+		2591FAFC1E70CF4900AC3868 /* MasterBeeTestVersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FAFB1E70CF4900AC3868 /* MasterBeeTestVersionUITests.swift */; };
+		2591FB111E70D70D00AC3868 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FB101E70D70D00AC3868 /* UIHelper.swift */; };
+		2591FB141E70E34200AC3868 /* MasterBeeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FB131E70E34200AC3868 /* MasterBeeClient.swift */; };
+		2591FB161E70EA9400AC3868 /* MBWelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FB151E70EA9400AC3868 /* MBWelcomViewController.swift */; };
+		2591FB181E70EC2700AC3868 /* MBLoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FB171E70EC2700AC3868 /* MBLoginTableViewController.swift */; };
+		2591FB1C1E70EC6300AC3868 /* MBRegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FB1B1E70EC6300AC3868 /* MBRegisterTableViewController.swift */; };
+		2591FB1E1E70EF7100AC3868 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2591FB1D1E70EF7100AC3868 /* Account.storyboard */; };
+		30D25E580711D0F7C4602786 /* Pods_MasterBeeTestVersionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BCA786D18553393541F21D /* Pods_MasterBeeTestVersionUITests.framework */; };
+		81877AD40228F9A9B266D806 /* Pods_MasterBeeTestVersion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253A614325351E5F676E61C3 /* Pods_MasterBeeTestVersion.framework */; };
+		9FB9762713F8FDBB614436A8 /* Pods_MasterBeeTestVersionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F191162EAA7ED66063B470F9 /* Pods_MasterBeeTestVersionTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2591FAED1E70CF4900AC3868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2591FAD01E70CF4900AC3868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2591FAD71E70CF4900AC3868;
+			remoteInfo = MasterBeeTestVersion;
+		};
+		2591FAF81E70CF4900AC3868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2591FAD01E70CF4900AC3868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2591FAD71E70CF4900AC3868;
+			remoteInfo = MasterBeeTestVersion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		253A614325351E5F676E61C3 /* Pods_MasterBeeTestVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterBeeTestVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2591FAD81E70CF4900AC3868 /* MasterBeeTestVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterBeeTestVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2591FADB1E70CF4900AC3868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2591FAE01E70CF4900AC3868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2591FAE21E70CF4900AC3868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2591FAE51E70CF4900AC3868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2591FAE71E70CF4900AC3868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2591FAEC1E70CF4900AC3868 /* MasterBeeTestVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterBeeTestVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2591FAF01E70CF4900AC3868 /* MasterBeeTestVersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterBeeTestVersionTests.swift; sourceTree = "<group>"; };
+		2591FAF21E70CF4900AC3868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2591FAF71E70CF4900AC3868 /* MasterBeeTestVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterBeeTestVersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2591FAFB1E70CF4900AC3868 /* MasterBeeTestVersionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterBeeTestVersionUITests.swift; sourceTree = "<group>"; };
+		2591FAFD1E70CF4900AC3868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2591FB101E70D70D00AC3868 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Helper/UIHelper.swift; sourceTree = "<group>"; };
+		2591FB131E70E34200AC3868 /* MasterBeeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterBeeClient.swift; path = Client/MasterBeeClient.swift; sourceTree = "<group>"; };
+		2591FB151E70EA9400AC3868 /* MBWelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBWelcomViewController.swift; path = ViewController/MBWelcomViewController.swift; sourceTree = "<group>"; };
+		2591FB171E70EC2700AC3868 /* MBLoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBLoginTableViewController.swift; path = ViewController/MBLoginTableViewController.swift; sourceTree = "<group>"; };
+		2591FB1B1E70EC6300AC3868 /* MBRegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBRegisterTableViewController.swift; path = ViewController/MBRegisterTableViewController.swift; sourceTree = "<group>"; };
+		2591FB1D1E70EF7100AC3868 /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Account.storyboard; path = StoryBoard/Account.storyboard; sourceTree = "<group>"; };
+		84BB2D68338E38C0BCFCA3D8 /* Pods-MasterBeeTestVersionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterBeeTestVersionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasterBeeTestVersionTests/Pods-MasterBeeTestVersionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DF7BCE10664B88C0FB03FED /* Pods-MasterBeeTestVersion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterBeeTestVersion.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasterBeeTestVersion/Pods-MasterBeeTestVersion.release.xcconfig"; sourceTree = "<group>"; };
+		B1BCA786D18553393541F21D /* Pods_MasterBeeTestVersionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterBeeTestVersionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C089F473B86A6CBFC8AC228D /* Pods-MasterBeeTestVersionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterBeeTestVersionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasterBeeTestVersionUITests/Pods-MasterBeeTestVersionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5B7F4FF0556B8D7F68E7683 /* Pods-MasterBeeTestVersion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterBeeTestVersion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasterBeeTestVersion/Pods-MasterBeeTestVersion.debug.xcconfig"; sourceTree = "<group>"; };
+		CAB507FFCAFC8D58FAD63104 /* Pods-MasterBeeTestVersionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterBeeTestVersionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasterBeeTestVersionTests/Pods-MasterBeeTestVersionTests.release.xcconfig"; sourceTree = "<group>"; };
+		D534723CDA9FD3D4B9B4D901 /* Pods-MasterBeeTestVersionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterBeeTestVersionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasterBeeTestVersionUITests/Pods-MasterBeeTestVersionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F191162EAA7ED66063B470F9 /* Pods_MasterBeeTestVersionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterBeeTestVersionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2591FAD51E70CF4900AC3868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81877AD40228F9A9B266D806 /* Pods_MasterBeeTestVersion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2591FAE91E70CF4900AC3868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB9762713F8FDBB614436A8 /* Pods_MasterBeeTestVersionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2591FAF41E70CF4900AC3868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D25E580711D0F7C4602786 /* Pods_MasterBeeTestVersionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D854A850C50B67F9E700DE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5B7F4FF0556B8D7F68E7683 /* Pods-MasterBeeTestVersion.debug.xcconfig */,
+				8DF7BCE10664B88C0FB03FED /* Pods-MasterBeeTestVersion.release.xcconfig */,
+				84BB2D68338E38C0BCFCA3D8 /* Pods-MasterBeeTestVersionTests.debug.xcconfig */,
+				CAB507FFCAFC8D58FAD63104 /* Pods-MasterBeeTestVersionTests.release.xcconfig */,
+				D534723CDA9FD3D4B9B4D901 /* Pods-MasterBeeTestVersionUITests.debug.xcconfig */,
+				C089F473B86A6CBFC8AC228D /* Pods-MasterBeeTestVersionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A73D310A42F20AC07554C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				253A614325351E5F676E61C3 /* Pods_MasterBeeTestVersion.framework */,
+				F191162EAA7ED66063B470F9 /* Pods_MasterBeeTestVersionTests.framework */,
+				B1BCA786D18553393541F21D /* Pods_MasterBeeTestVersionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		255386021E721C1E007182F7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		2591FACF1E70CF4900AC3868 = {
+			isa = PBXGroup;
+			children = (
+				2591FADA1E70CF4900AC3868 /* MasterBeeTestVersion */,
+				2591FAEF1E70CF4900AC3868 /* MasterBeeTestVersionTests */,
+				2591FAFA1E70CF4900AC3868 /* MasterBeeTestVersionUITests */,
+				2591FAD91E70CF4900AC3868 /* Products */,
+				0D854A850C50B67F9E700DE4 /* Pods */,
+				1A73D310A42F20AC07554C0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2591FAD91E70CF4900AC3868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2591FAD81E70CF4900AC3868 /* MasterBeeTestVersion.app */,
+				2591FAEC1E70CF4900AC3868 /* MasterBeeTestVersionTests.xctest */,
+				2591FAF71E70CF4900AC3868 /* MasterBeeTestVersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2591FADA1E70CF4900AC3868 /* MasterBeeTestVersion */ = {
+			isa = PBXGroup;
+			children = (
+				255386021E721C1E007182F7 /* Extension */,
+				2591FB121E70E31200AC3868 /* Client */,
+				2591FB0D1E70CFC300AC3868 /* StoryBoard */,
+				2591FB0C1E70CFB900AC3868 /* Default */,
+				2591FB0B1E70CF8600AC3868 /* Helper */,
+				2591FB0A1E70CF7A00AC3868 /* ViewController */,
+				2591FB091E70CF5C00AC3868 /* View */,
+			);
+			path = MasterBeeTestVersion;
+			sourceTree = "<group>";
+		};
+		2591FAEF1E70CF4900AC3868 /* MasterBeeTestVersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				2591FAF01E70CF4900AC3868 /* MasterBeeTestVersionTests.swift */,
+				2591FAF21E70CF4900AC3868 /* Info.plist */,
+			);
+			path = MasterBeeTestVersionTests;
+			sourceTree = "<group>";
+		};
+		2591FAFA1E70CF4900AC3868 /* MasterBeeTestVersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2591FAFB1E70CF4900AC3868 /* MasterBeeTestVersionUITests.swift */,
+				2591FAFD1E70CF4900AC3868 /* Info.plist */,
+			);
+			path = MasterBeeTestVersionUITests;
+			sourceTree = "<group>";
+		};
+		2591FB091E70CF5C00AC3868 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2591FB0A1E70CF7A00AC3868 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2591FB151E70EA9400AC3868 /* MBWelcomViewController.swift */,
+				2591FB171E70EC2700AC3868 /* MBLoginTableViewController.swift */,
+				2591FB1B1E70EC6300AC3868 /* MBRegisterTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2591FB0B1E70CF8600AC3868 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2591FB101E70D70D00AC3868 /* UIHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		2591FB0C1E70CFB900AC3868 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				2591FADB1E70CF4900AC3868 /* AppDelegate.swift */,
+				2591FAE21E70CF4900AC3868 /* Assets.xcassets */,
+				2591FAE71E70CF4900AC3868 /* Info.plist */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		2591FB0D1E70CFC300AC3868 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2591FADF1E70CF4900AC3868 /* Main.storyboard */,
+				2591FAE41E70CF4900AC3868 /* LaunchScreen.storyboard */,
+				2591FB1D1E70EF7100AC3868 /* Account.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		2591FB121E70E31200AC3868 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				2591FB131E70E34200AC3868 /* MasterBeeClient.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2591FAD71E70CF4900AC3868 /* MasterBeeTestVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2591FB001E70CF4900AC3868 /* Build configuration list for PBXNativeTarget "MasterBeeTestVersion" */;
+			buildPhases = (
+				1C357A39F9146508422E01A2 /* [CP] Check Pods Manifest.lock */,
+				2591FAD41E70CF4900AC3868 /* Sources */,
+				2591FAD51E70CF4900AC3868 /* Frameworks */,
+				2591FAD61E70CF4900AC3868 /* Resources */,
+				79780D7BA78ED1091A8E9973 /* [CP] Embed Pods Frameworks */,
+				5EED5A0BBE390D4AA85D3AF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterBeeTestVersion;
+			productName = MasterBeeTestVersion;
+			productReference = 2591FAD81E70CF4900AC3868 /* MasterBeeTestVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2591FAEB1E70CF4900AC3868 /* MasterBeeTestVersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2591FB031E70CF4900AC3868 /* Build configuration list for PBXNativeTarget "MasterBeeTestVersionTests" */;
+			buildPhases = (
+				5AD64E8240FDF341A2F746F8 /* [CP] Check Pods Manifest.lock */,
+				2591FAE81E70CF4900AC3868 /* Sources */,
+				2591FAE91E70CF4900AC3868 /* Frameworks */,
+				2591FAEA1E70CF4900AC3868 /* Resources */,
+				29DD6FFAB6185F2F43A92EE0 /* [CP] Embed Pods Frameworks */,
+				F41ECD776370157B510745C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2591FAEE1E70CF4900AC3868 /* PBXTargetDependency */,
+			);
+			name = MasterBeeTestVersionTests;
+			productName = MasterBeeTestVersionTests;
+			productReference = 2591FAEC1E70CF4900AC3868 /* MasterBeeTestVersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2591FAF61E70CF4900AC3868 /* MasterBeeTestVersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2591FB061E70CF4900AC3868 /* Build configuration list for PBXNativeTarget "MasterBeeTestVersionUITests" */;
+			buildPhases = (
+				FEC43388AC37F6CF36BE597C /* [CP] Check Pods Manifest.lock */,
+				2591FAF31E70CF4900AC3868 /* Sources */,
+				2591FAF41E70CF4900AC3868 /* Frameworks */,
+				2591FAF51E70CF4900AC3868 /* Resources */,
+				0AC25CF9A08AD4B2C01FFB34 /* [CP] Embed Pods Frameworks */,
+				34A6FEE76DEA24043526078F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2591FAF91E70CF4900AC3868 /* PBXTargetDependency */,
+			);
+			name = MasterBeeTestVersionUITests;
+			productName = MasterBeeTestVersionUITests;
+			productReference = 2591FAF71E70CF4900AC3868 /* MasterBeeTestVersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2591FAD01E70CF4900AC3868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shayin Feng";
+				TargetAttributes = {
+					2591FAD71E70CF4900AC3868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N33N8736G4;
+						ProvisioningStyle = Automatic;
+					};
+					2591FAEB1E70CF4900AC3868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N33N8736G4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2591FAD71E70CF4900AC3868;
+					};
+					2591FAF61E70CF4900AC3868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N33N8736G4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2591FAD71E70CF4900AC3868;
+					};
+				};
+			};
+			buildConfigurationList = 2591FAD31E70CF4900AC3868 /* Build configuration list for PBXProject "MasterBeeTestVersion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2591FACF1E70CF4900AC3868;
+			productRefGroup = 2591FAD91E70CF4900AC3868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2591FAD71E70CF4900AC3868 /* MasterBeeTestVersion */,
+				2591FAEB1E70CF4900AC3868 /* MasterBeeTestVersionTests */,
+				2591FAF61E70CF4900AC3868 /* MasterBeeTestVersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2591FAD61E70CF4900AC3868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591FAE61E70CF4900AC3868 /* LaunchScreen.storyboard in Resources */,
+				2591FAE31E70CF4900AC3868 /* Assets.xcassets in Resources */,
+				2591FB1E1E70EF7100AC3868 /* Account.storyboard in Resources */,
+				2591FAE11E70CF4900AC3868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2591FAEA1E70CF4900AC3868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2591FAF51E70CF4900AC3868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC25CF9A08AD4B2C01FFB34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterBeeTestVersionUITests/Pods-MasterBeeTestVersionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C357A39F9146508422E01A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29DD6FFAB6185F2F43A92EE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterBeeTestVersionTests/Pods-MasterBeeTestVersionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A6FEE76DEA24043526078F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterBeeTestVersionUITests/Pods-MasterBeeTestVersionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD64E8240FDF341A2F746F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EED5A0BBE390D4AA85D3AF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterBeeTestVersion/Pods-MasterBeeTestVersion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79780D7BA78ED1091A8E9973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterBeeTestVersion/Pods-MasterBeeTestVersion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41ECD776370157B510745C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterBeeTestVersionTests/Pods-MasterBeeTestVersionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC43388AC37F6CF36BE597C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2591FAD41E70CF4900AC3868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591FADC1E70CF4900AC3868 /* AppDelegate.swift in Sources */,
+				2591FB1C1E70EC6300AC3868 /* MBRegisterTableViewController.swift in Sources */,
+				2591FB111E70D70D00AC3868 /* UIHelper.swift in Sources */,
+				2591FB161E70EA9400AC3868 /* MBWelcomViewController.swift in Sources */,
+				2591FB181E70EC2700AC3868 /* MBLoginTableViewController.swift in Sources */,
+				2591FB141E70E34200AC3868 /* MasterBeeClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2591FAE81E70CF4900AC3868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591FAF11E70CF4900AC3868 /* MasterBeeTestVersionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2591FAF31E70CF4900AC3868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591FAFC1E70CF4900AC3868 /* MasterBeeTestVersionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2591FAEE1E70CF4900AC3868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2591FAD71E70CF4900AC3868 /* MasterBeeTestVersion */;
+			targetProxy = 2591FAED1E70CF4900AC3868 /* PBXContainerItemProxy */;
+		};
+		2591FAF91E70CF4900AC3868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2591FAD71E70CF4900AC3868 /* MasterBeeTestVersion */;
+			targetProxy = 2591FAF81E70CF4900AC3868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2591FADF1E70CF4900AC3868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2591FAE01E70CF4900AC3868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2591FAE41E70CF4900AC3868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2591FAE51E70CF4900AC3868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2591FAFE1E70CF4900AC3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2591FAFF1E70CF4900AC3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2591FB011E70CF4900AC3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B7F4FF0556B8D7F68E7683 /* Pods-MasterBeeTestVersion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N33N8736G4;
+				INFOPLIST_FILE = MasterBeeTestVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sine.MasterBeeTestVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2591FB021E70CF4900AC3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF7BCE10664B88C0FB03FED /* Pods-MasterBeeTestVersion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N33N8736G4;
+				INFOPLIST_FILE = MasterBeeTestVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sine.MasterBeeTestVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2591FB041E70CF4900AC3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84BB2D68338E38C0BCFCA3D8 /* Pods-MasterBeeTestVersionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N33N8736G4;
+				INFOPLIST_FILE = MasterBeeTestVersionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sine.MasterBeeTestVersionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasterBeeTestVersion.app/MasterBeeTestVersion";
+			};
+			name = Debug;
+		};
+		2591FB051E70CF4900AC3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB507FFCAFC8D58FAD63104 /* Pods-MasterBeeTestVersionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N33N8736G4;
+				INFOPLIST_FILE = MasterBeeTestVersionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sine.MasterBeeTestVersionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasterBeeTestVersion.app/MasterBeeTestVersion";
+			};
+			name = Release;
+		};
+		2591FB071E70CF4900AC3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D534723CDA9FD3D4B9B4D901 /* Pods-MasterBeeTestVersionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N33N8736G4;
+				INFOPLIST_FILE = MasterBeeTestVersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sine.MasterBeeTestVersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MasterBeeTestVersion;
+			};
+			name = Debug;
+		};
+		2591FB081E70CF4900AC3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C089F473B86A6CBFC8AC228D /* Pods-MasterBeeTestVersionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N33N8736G4;
+				INFOPLIST_FILE = MasterBeeTestVersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sine.MasterBeeTestVersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MasterBeeTestVersion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2591FAD31E70CF4900AC3868 /* Build configuration list for PBXProject "MasterBeeTestVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2591FAFE1E70CF4900AC3868 /* Debug */,
+				2591FAFF1E70CF4900AC3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2591FB001E70CF4900AC3868 /* Build configuration list for PBXNativeTarget "MasterBeeTestVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2591FB011E70CF4900AC3868 /* Debug */,
+				2591FB021E70CF4900AC3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2591FB031E70CF4900AC3868 /* Build configuration list for PBXNativeTarget "MasterBeeTestVersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2591FB041E70CF4900AC3868 /* Debug */,
+				2591FB051E70CF4900AC3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2591FB061E70CF4900AC3868 /* Build configuration list for PBXNativeTarget "MasterBeeTestVersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2591FB071E70CF4900AC3868 /* Debug */,
+				2591FB081E70CF4900AC3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2591FAD01E70CF4900AC3868 /* Project object */;
+}

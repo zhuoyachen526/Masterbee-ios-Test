@@ -1,0 +1,6 @@
+framework module Pods_MasterBeeTestVersionTests {
+  umbrella header "Pods-MasterBeeTestVersionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
