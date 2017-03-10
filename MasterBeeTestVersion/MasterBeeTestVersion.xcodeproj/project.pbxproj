@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255386041E7224D4007182F7 /* Sample_Stock_Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 255386031E7224D4007182F7 /* Sample_Stock_Response.json */; };
+		255386061E7225E1007182F7 /* MBMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255386051E7225E1007182F7 /* MBMenuViewController.swift */; };
 		2591FADC1E70CF4900AC3868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591FADB1E70CF4900AC3868 /* AppDelegate.swift */; };
 		2591FAE11E70CF4900AC3868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2591FADF1E70CF4900AC3868 /* Main.storyboard */; };
 		2591FAE31E70CF4900AC3868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2591FAE21E70CF4900AC3868 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		253A614325351E5F676E61C3 /* Pods_MasterBeeTestVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterBeeTestVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		255386031E7224D4007182F7 /* Sample_Stock_Response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sample_Stock_Response.json; sourceTree = "<group>"; };
+		255386051E7225E1007182F7 /* MBMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBMenuViewController.swift; path = ViewController/MBMenuViewController.swift; sourceTree = "<group>"; };
 		2591FAD81E70CF4900AC3868 /* MasterBeeTestVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterBeeTestVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2591FADB1E70CF4900AC3868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2591FAE01E70CF4900AC3868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -196,6 +200,7 @@
 				2591FB151E70EA9400AC3868 /* MBWelcomViewController.swift */,
 				2591FB171E70EC2700AC3868 /* MBLoginTableViewController.swift */,
 				2591FB1B1E70EC6300AC3868 /* MBRegisterTableViewController.swift */,
+				255386051E7225E1007182F7 /* MBMenuViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				2591FADB1E70CF4900AC3868 /* AppDelegate.swift */,
+				255386031E7224D4007182F7 /* Sample_Stock_Response.json */,
 				2591FAE21E70CF4900AC3868 /* Assets.xcassets */,
 				2591FAE71E70CF4900AC3868 /* Info.plist */,
 			);
@@ -222,8 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				2591FADF1E70CF4900AC3868 /* Main.storyboard */,
-				2591FAE41E70CF4900AC3868 /* LaunchScreen.storyboard */,
 				2591FB1D1E70EF7100AC3868 /* Account.storyboard */,
+				2591FAE41E70CF4900AC3868 /* LaunchScreen.storyboard */,
 			);
 			name = StoryBoard;
 			sourceTree = "<group>";
@@ -359,6 +365,7 @@
 				2591FAE31E70CF4900AC3868 /* Assets.xcassets in Resources */,
 				2591FB1E1E70EF7100AC3868 /* Account.storyboard in Resources */,
 				2591FAE11E70CF4900AC3868 /* Main.storyboard in Resources */,
+				255386041E7224D4007182F7 /* Sample_Stock_Response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +532,7 @@
 				2591FB1C1E70EC6300AC3868 /* MBRegisterTableViewController.swift in Sources */,
 				2591FB111E70D70D00AC3868 /* UIHelper.swift in Sources */,
 				2591FB161E70EA9400AC3868 /* MBWelcomViewController.swift in Sources */,
+				255386061E7225E1007182F7 /* MBMenuViewController.swift in Sources */,
 				2591FB181E70EC2700AC3868 /* MBLoginTableViewController.swift in Sources */,
 				2591FB141E70E34200AC3868 /* MasterBeeClient.swift in Sources */,
 			);
